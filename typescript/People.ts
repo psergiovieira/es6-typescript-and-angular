@@ -1,4 +1,4 @@
-export class People{
+export default class People{
     private name: string;
     public getName(): string{
         return this.name;
