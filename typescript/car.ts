@@ -16,3 +16,6 @@ console.log(car);
 car.speedUp();
 car.speedUp();
 console.log(car);
+
+let carsList: Car[] = [new Car("Fusca"), new Car("Peugeot 207")];
+console.log(carsList);
