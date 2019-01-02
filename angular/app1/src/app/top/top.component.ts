@@ -1,8 +1,10 @@
-import {Component} from '@angular/core'
+import { Component } from '@angular/core'
 
 @Component({
     selector: 'app-top',
-    templateUrl: './top.component.html'
+    templateUrl: './top.component.html',
+    styleUrls: ['./top.component.css']
+
 })
-export class TopComponent{    
+export class TopComponent {
 }
